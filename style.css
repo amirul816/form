@@ -1,0 +1,62 @@
+body{
+  font-family:'Poppins',sans-serif;
+  margin:0;
+}
+.contact{
+  width: 50%;
+  border:1px solid #ddd;
+  margin:20px auto;
+  padding:5%;
+  text-align:center;
+}
+.contact h2{
+  font-weight: bold;
+  font-size:35px;
+  margin-bottom: 0;
+}
+.contact p{
+  color:rgb(113,113,113,113);
+}
+.contact form{
+  margin-top:35px;
+}
+.child_form {
+  width:80%;
+  margin-bottom: 15px; 
+  margin: auto;
+}
+.child_form label{
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.child_form input, textarea,select{
+  border:1px solid #ddd;
+  border-radius:5px;
+  padding:3% 3%;
+  width: 94%;
+  font-family:'Poppins',sans-serif;
+  
+}
+.child_form select{
+  width: 100%;
+}
+.child_form input[type="button"]{
+  width:200px;
+  background:blueviolet;
+  border:1px solid blueviolet;
+  color:#fff;
+  cursor: pointer;
+}
+.child_form input[type="button"]:hover{
+  width:200px;
+  background:black;
+  border:1px solid black;
+  color:#fff;
+}
+
+.child_form:last-child{
+  margin-bottom:0px;
+}
+
+
